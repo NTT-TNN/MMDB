@@ -10,13 +10,8 @@ from sklearn.externals import joblib
 from scipy.cluster.vq import *
 from sklearn.preprocessing import StandardScaler
 
-# Get the path of the training set
-parser = ap.ArgumentParser()
-parser.add_argument("-t", "--trainingSet", help="Path to Training Set", required="True")
-args = vars(parser.parse_args())
-
 # Get the training classes names and store them in a list
-train_path = args["trainingSet"]
+train_path = "dataset/train/"
 training_names = os.listdir(train_path)
 
 # Get all the path to the images and save them in a list
@@ -31,7 +26,7 @@ for training_name in training_names:
     image_classes+=[class_id]*len(class_path)
     class_id+=1
 
-# Create feature extraction and keypoint detector objects
+# Initiate SURF detector
 SURF = cv2.xfeatures2d.SURF_create()
 
 # List where all the descriptors are stored
@@ -71,6 +66,6 @@ im_features = stdSlr.transform(im_features)
 clf = LinearSVC()
 clf.fit(im_features, np.array(image_classes))
 
-# Save the SVM
-joblib.dump((clf, training_names, stdSlr, k, voc), "bof.pkl", compress=3)    
+# Save to file
+joblib.dump((clf, training_names, stdSlr, k, voc), "train.txt", compress=0)
     
