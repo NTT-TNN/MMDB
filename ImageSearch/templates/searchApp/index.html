@@ -25,6 +25,7 @@
 <script>
         var html="";
         function search() {
+
             var key = $("#key").val();
              $.ajax({
                  url: '/searchApp/search/',
@@ -34,6 +35,7 @@
                  dataType: 'json',
                  success: function (data) {
                      if (data) {
+                         $("#results").empty();
                          console.log("succeess");
                          console.log(data.result.length);
                          for (var i=0;i<data.result.length;++i){

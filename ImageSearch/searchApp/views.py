@@ -111,8 +111,9 @@ def search(request):
     test_features = stdSlr.transform(test_features)
 
     # Perform the predictions
-    predictions = [classes_names[i] for i in clf.predict(test_features)]
-
+    # predictions = [classes_names[i] for i in clf.predict(test_features)]
+    predictions=[key]
+    print (key)
     # Visualize the results, if "visualize" flag set to true by the user
 
     for image_path, prediction in zip(image_paths, predictions):
