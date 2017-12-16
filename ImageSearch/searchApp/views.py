@@ -8,6 +8,7 @@ import os
 from sklearn.svm import LinearSVC
 from sklearn.externals import joblib
 from scipy.cluster.vq import *
+import json
 
 def index(request):
     result=[]
@@ -68,8 +69,8 @@ def index(request):
     return render(request, "searchApp/index.html", context)
 
 def search(request):
-    print ("success")
-    key =  request.GET.get('key', None)
+    print ("search")
+    key = request.GET.get('key', None)
     result = []
     # Load the classifier, class names, scaler, number of clusters and vocabulary
     clf, classes_names, stdSlr, k, voc = joblib.load("/home/thao-nt/Desktop/MMDB/MMDB/ImageSearch/searchApp/train.txt")
@@ -121,8 +122,9 @@ def search(request):
         results_name = os.listdir(results_path)
         for result_name in results_name:
             result_path = os.path.join(results_path, result_name)
-            result.append(result_path)
-        context = {
-            'result': result
-        }
+            result_name="/"+prediction+"/"+result_name;
+            result.append(result_name)
+    context = json.dumps({
+        'result': result
+    })
     return HttpResponse(context, content_type='application/json')
