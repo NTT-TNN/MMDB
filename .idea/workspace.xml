@@ -2,10 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d651b81-88b6-459d-8b56-a583f9cae0ee" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bag-of-words/bof.pkl" afterPath="$PROJECT_DIR$/bag-of-words/bof.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageSearch/.idea/ImageSearch.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageSearch/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageSearch/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageSearch/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageSearch/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageSearch/searchApp/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageSearch/templates/searchApp/index.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/233.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/800.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/801.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/802.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/301.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/302.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/501.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/503.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/600.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/601.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/602.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/603.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/700.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/701.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/702.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/find.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bag-of-words/find.py" afterPath="$PROJECT_DIR$/bag-of-words/find.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bag-of-words/train.py" afterPath="$PROJECT_DIR$/bag-of-words/train.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bag-of-words/train.txt" afterPath="$PROJECT_DIR$/bag-of-words/train.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,6 +44,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/CSDL_DPT$match.coverage" NAME="match Coverage Results" MODIFIED="1513303158542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MMDB$manage.coverage" NAME="manage Coverage Results" MODIFIED="1513412760078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_shop" />
     <SUITE FILE_PATH="coverage/CSDL_DPT$match__1_.coverage" NAME="match (1) Coverage Results" MODIFIED="1513303142755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csdl_dpt_env" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -35,22 +64,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="find.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bag-of-words/find.py">
+      <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bag-of-words/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            <state relative-caret-position="406">
+              <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bag-of-words/train.py">
+      <file leaf-file-name="search.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bag-of-words/search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="36" />
-              <folding />
+            <state relative-caret-position="56">
+              <caret line="61" column="27" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="61" selection-end-column="27" />
+              <folding>
+                <element signature="e#32#53#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,6 +120,7 @@
         <option value="$PROJECT_DIR$/brute-force/test_two_image.py" />
         <option value="$PROJECT_DIR$/bag-of-words/train.py" />
         <option value="$PROJECT_DIR$/bag-of-words/find.py" />
+        <option value="$PROJECT_DIR$/bag-of-words/search.py" />
       </list>
     </option>
   </component>
@@ -164,20 +196,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="brute-force" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MMDB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MMDB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="bag-of-words" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -195,7 +213,7 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.match">
+  <component name="RunManager" selected="Python.manage">
     <configuration default="false" name="match (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -210,6 +228,24 @@
       <module name="CSDL_DPT" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/csdl_dpt_env/match.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_shop" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CSDL_DPT" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web_shop/manage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -446,13 +482,15 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.match" />
       <item index="1" class="java.lang.String" itemvalue="Python.match (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.manage" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.match (1)" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.manage" />
+        <item index="1" class="java.lang.String" itemvalue="Python.match (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -482,24 +520,24 @@
     <frame x="59" y="24" width="1307" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12846947" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13005552" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -529,7 +567,15 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bag-of-words/train.py</url>
+          <line>13</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -653,19 +699,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bag-of-words/train.py">
+    <entry file="file://$PROJECT_DIR$/bag-of-words/find.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="36" />
+        <state relative-caret-position="29">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bag-of-words/find.py">
+    <entry file="file://$PROJECT_DIR$/bag-of-words/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        <state relative-caret-position="406">
+          <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="49" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_shop/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="7" column="68" lean-forward="true" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bag-of-words/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="61" column="27" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="61" selection-end-column="27" />
+          <folding>
+            <element signature="e#32#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
