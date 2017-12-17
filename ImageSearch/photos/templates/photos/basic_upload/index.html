@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="/static/css/style.css" rel="stylesheet">
+    <script src="{% static '/js/basic-upload.js' %}"></script>
+
+    <script src="{% static 'js/jquery-file-upload/vendor/jquery.ui.widget.js' %}"></script>
+    <script src="{% static 'js/jquery-file-upload/jquery.iframe-transport.js' %}"></script>
+    <script src="{% static 'js/jquery-file-upload/jquery.fileupload.js' %}"></script>
+</head>
+<body>
+
+<button type="button" class="btn btn-primary js-upload-photos">
+  <span class="glyphicon glyphicon-cloud-upload"></span> Upload photos
+</button>
+<div>
+  <img id="photo_file_url">
+</div>
+<input id="fileupload" type="file" name="file" multiple
+       style="display: none;"
+       data-url="{% url 'photos:basic_upload' %}"
+       data-form-data='{"csrfmiddlewaretoken": "{{ csrf_token }}"}'>
+<div id="results">
+
+</div>
+</body>
+
+</html>

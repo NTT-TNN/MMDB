@@ -2,7 +2,12 @@
  src:url('/static/font/callunasansregular-webfont.woff') format('woff');
 }
 body {
-  font-family: Calluna, Arial, sans-serif;
+	text-align: center;
+  	font-family: Calluna, Arial, sans-serif;
+}
+.photo{
+	width: 50px;
+	height:50px;
 }
 #results {
 	column-width: 320px;
@@ -58,3 +63,4 @@ div#results:hover figure:not(:hover) {
   #results { column-gap: 0px; }
   #results figure { width: 100%; }
 }
+
