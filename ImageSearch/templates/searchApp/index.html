@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,13 +10,20 @@
     <link href="/static/css/style.css" rel="stylesheet">
 </head>
 <body>
+
 <div class="container">
     <div class="form-group">
       <input type="text" class="form-control" id="key">
     </div>
+
     <div class="form-group">
       <button class="btn btn-info" onclick="search()">Search</button>
     </div>
+    <form enctype="multipart/form-data" method="post" action="/searchApp/uploads/simple/">
+        {% csrf_token %}
+        <input type="file" name="myfile"/>
+        <button class="btn btn-info" type="submit">Upload</button>
+    </form>
 </div>
 
 <div id="results">
@@ -23,37 +31,37 @@
 </div>
 </body>
 <script>
-        var html="";
-        function search() {
+    var html="";
+    function search() {
 
-            var key = $("#key").val();
-             $.ajax({
-                 url: '/searchApp/search/',
-                 data: {
-                     'key': key
-                 },
-                 dataType: 'json',
-                 success: function (data) {
-                     if (data) {
-                         $("#results").empty();
-                         console.log("succeess");
-                         console.log(data.result.length);
-                         for (var i=0;i<data.result.length;++i){
-                            var figure=document.createElement("figure");
-                            var image=document.createElement("IMG");
-                            image.src="/static/images/"+data.result[i];
-                            var figcaption=document.createElement("figcaption");
-                            figcaption.append("/static/images/"+data.result[i]);
-                            figure.appendChild(image);
-                            figure.appendChild(figcaption);
-                            $("#results").append(figure);
-                         }
-                     }else{
-                         alert("null")
+        var key = $("#key").val();
+         $.ajax({
+             url: '/searchApp/search/',
+             data: {
+                 'key': key
+             },
+             dataType: 'json',
+             success: function (data) {
+                 if (data) {
+                     $("#results").empty();
+                     console.log("succeess");
+                     console.log(data.result.length);
+                     for (var i=0;i<data.result.length;++i){
+                        var figure=document.createElement("figure");
+                        var image=document.createElement("IMG");
+                        image.src="/static/images/"+data.result[i];
+                        var figcaption=document.createElement("figcaption");
+                        figcaption.append("/static/images/"+data.result[i]);
+                        figure.appendChild(image);
+                        figure.appendChild(figcaption);
+                        $("#results").append(figure);
                      }
+                 }else{
+                     alert("null")
                  }
-             });
-        }
+             }
+         });
+    }
 
-    </script>
+</script>
 </html>

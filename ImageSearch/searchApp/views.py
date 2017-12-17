@@ -9,6 +9,9 @@ from sklearn.svm import LinearSVC
 from sklearn.externals import joblib
 from scipy.cluster.vq import *
 import json
+from django.shortcuts import render, redirect
+from django.core.files.storage import FileSystemStorage
+
 
 def index(request):
     result=[]
@@ -129,3 +132,12 @@ def search(request):
         'result': result
     })
     return HttpResponse(context, content_type='application/json')
+
+def simple_upload(request):
+    if request.method == 'POST' and request.FILES['myfile']:
+        myfile = request.FILES['myfile']
+        print (myfile)
+        fs = FileSystemStorage()
+        filename = fs.save(myfile.name, myfile)
+        uploaded_file_url = fs.url(filename)
+    return render(request, 'searchApp/index.html')

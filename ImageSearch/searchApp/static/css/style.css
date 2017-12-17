@@ -3,7 +3,6 @@
 }
 body {
   font-family: Calluna, Arial, sans-serif;
-  min-height: 1000px;
 }
 #results {
 	column-width: 320px;
@@ -52,7 +51,7 @@ div#results small a {
 }
 
 div#results:hover figure:not(:hover) {
-	opacity: 0.4;
+	opacity: 0.8;
 }
 
 @media screen and (max-width: 750px) {
