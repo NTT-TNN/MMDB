@@ -8,7 +8,7 @@ from django.conf import settings
 urlpatterns = [
     url(r'^$', views.index, name='index'),
     url(r'^admin/', admin.site.urls),
-    url(r'^searchApp/', include('searchApp.urls')),
+    url(r'^searchApp/', include('searchApp.urls',namespace='seachApp')),
     url(r'^uploads/simple/$', views.simple_upload, name='simple_upload'),
     url(r'^photos/', include('photos.urls', namespace='photos')),
 ]
