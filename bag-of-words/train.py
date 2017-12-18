@@ -27,7 +27,7 @@ for training_name in training_names:
     class_id+=1
 
 # Initiate SURF detector
-SURF = cv2.xfeatures2d.SURF_create()
+SURF = cv2.xfeatures2d.SIFT_create()
 
 # List where all the descriptors are stored
 des_list = []
@@ -37,35 +37,46 @@ for image_path in image_paths:
     kpts = SURF.detect(im)
     kpts, des = SURF.compute(im, kpts)
     des_list.append((image_path, des))   
-    
+# print (des_list)
 # Stack all the descriptors vertically in a numpy array
 descriptors = des_list[0][1]
 for image_path, descriptor in des_list[1:]:
-    descriptors = np.vstack((descriptors, descriptor))  
+    descriptors = np.vstack((descriptors, descriptor))
 
 # Perform k-means clustering
 k = 100
-voc, variance = kmeans(descriptors, k, 1) 
+voc, variance = kmeans(descriptors, k, 1) # Tách thành 100 cụm dựa trên phương sai
+
+# np.savetxt('descriptors.txt', descriptors, delimiter=" ", fmt="%s")
+# np.savetxt('voc.txt', voc, delimiter=" ", fmt="%s")
+# print (np.max(descriptors))
+# print (np.max(voc))
 
 # Calculate the histogram of features
-im_features = np.zeros((len(image_paths), k), "float32")
+im_features = np.zeros((len(image_paths), k), "float32") # Tạo một array độ dài bằng độ dài image_paths và giá trị bằng 0
 for i in range(len(image_paths)):
     words, distance = vq(des_list[i][1],voc)
+    # print (words)
     for w in words:
         im_features[i][w] += 1
+# print (im_features)
 
 # Perform Tf-Idf vectorization
 nbr_occurences = np.sum( (im_features > 0) * 1, axis = 0)
 idf = np.array(np.log((1.0*len(image_paths)+1) / (1.0*nbr_occurences + 1)), 'float32')
-
 # Scaling the words
 stdSlr = StandardScaler().fit(im_features)
+# print (im_features)
+# print ("\n")
 im_features = stdSlr.transform(im_features)
+# print (im_features)
+# print ("\n")
 
 # Train the Linear SVM
 clf = LinearSVC()
+print (im_features)
+print (image_classes)
 clf.fit(im_features, np.array(image_classes))
-
 # Save to file
 joblib.dump((clf, training_names, stdSlr, k, voc), "train.txt", compress=0)
     

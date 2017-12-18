@@ -35,13 +35,14 @@ class BasicUploadView(View):
             clf, classes_names, stdSlr, k, voc = joblib.load("/home/thao-nt/Desktop/MMDB/MMDB/ImageSearch/searchApp/train.txt")
             fea_det = cv2.xfeatures2d.SURF_create()
             des_ext = cv2.xfeatures2d.SURF_create()
-
+            print (k)
             test_path = "/home/thao-nt/Desktop/MMDB/MMDB/ImageSearch/media/"
 
             des_list = []
             print (photo.file.url)
             image_path = os.path.join(test_path, photo.file.name)
             image_paths = [image_path]
+            print (image_path)
             im = cv2.imread(image_path)
             kpts = fea_det.detect(im)
             kpts, des = des_ext.compute(im, kpts)

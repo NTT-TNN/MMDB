@@ -15,13 +15,13 @@ clf, classes_names, stdSlr, k, voc = joblib.load("train.txt")
 fea_det = cv2.xfeatures2d.SURF_create()
 des_ext = cv2.xfeatures2d.SURF_create()
 
-test_path = "dataset/test/horse/"
+test_path = "/home/thao-nt/Desktop/MMDB/MMDB/ImageSearch/media/photos/"
 test_names = os.listdir(test_path)
 image_paths=[]
 # for test_name in test_names:
     # List where all the descriptors are stored
 des_list = []
-image_path= os.path.join(test_path, "700.jpg")
+image_path= os.path.join(test_path, "download_IamlXhY.jpeg")
 image_paths=[image_path]
 im = cv2.imread(image_path)
 kpts = fea_det.detect(im)
