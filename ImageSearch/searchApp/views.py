@@ -5,6 +5,7 @@ import cv2
 import imutils
 import numpy as np
 import os
+from ImageSearch.settings import PROJECT_ROOT
 from sklearn.svm import LinearSVC
 from sklearn.externals import joblib
 from scipy.cluster.vq import *
@@ -16,12 +17,12 @@ from django.core.files.storage import FileSystemStorage
 def index(request):
     result=[]
     # Load the classifier, class names, scaler, number of clusters and vocabulary
-    clf, classes_names, stdSlr, k, voc = joblib.load("/home/thao-nt/Desktop/MMDB/MMDB/ImageSearch/searchApp/train.txt")
+    clf, classes_names, stdSlr, k, voc = joblib.load(PROJECT_ROOT+"/train.txt")
     # Create feature extraction and keypoint detector objects
     fea_det = cv2.xfeatures2d.SURF_create()
     des_ext = cv2.xfeatures2d.SURF_create()
 
-    test_path = "/home/thao-nt/Desktop/MMDB/MMDB/ImageSearch/searchApp/dataset/test/horse/"
+    test_path = PROJECT_ROOT+"/dataset/test/horse/"
     test_names = os.listdir(test_path)
     image_paths = []
     # for test_name in test_names:
@@ -61,7 +62,7 @@ def index(request):
     for image_path, prediction in zip(image_paths, predictions):
         # image = cv2.imread(image_path)
         print (prediction)
-        results_path = "/home/thao-nt/Desktop/MMDB/MMDB/ImageSearch/searchApp/dataset/train/" + prediction
+        results_path = PROJECT_ROOT+"/dataset/train/" + prediction
         results_name = os.listdir(results_path)
         for result_name in results_name:
             result_path = os.path.join(results_path, result_name)
@@ -76,12 +77,12 @@ def search(request):
     key = request.GET.get('key', None)
     result = []
     # Load the classifier, class names, scaler, number of clusters and vocabulary
-    clf, classes_names, stdSlr, k, voc = joblib.load("/home/thao-nt/Desktop/MMDB/MMDB/ImageSearch/searchApp/train.txt")
+    clf, classes_names, stdSlr, k, voc = joblib.load(PROJECT_ROOT+"/train.txt")
     # Create feature extraction and keypoint detector objects
     fea_det = cv2.xfeatures2d.SURF_create()
     des_ext = cv2.xfeatures2d.SURF_create()
 
-    test_path = "/home/thao-nt/Desktop/MMDB/MMDB/ImageSearch/searchApp/dataset/test/horse/"
+    test_path = PROJECT_ROOT+"/dataset/test/horse/"
     test_names = os.listdir(test_path)
     image_paths = []
     # for test_name in test_names:
@@ -122,7 +123,7 @@ def search(request):
     for image_path, prediction in zip(image_paths, predictions):
         # image = cv2.imread(image_path)
         print (prediction)
-        results_path = "/home/thao-nt/Desktop/MMDB/MMDB/ImageSearch/searchApp/dataset/train/" + prediction
+        results_path = PROJECT_ROOT+"/dataset/train/" + prediction
         results_name = os.listdir(results_path)
         for result_name in results_name:
             result_path = os.path.join(results_path, result_name)
