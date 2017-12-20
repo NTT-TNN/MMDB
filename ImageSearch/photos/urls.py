@@ -3,4 +3,5 @@ from . import views
 urlpatterns = [
     url(r'^clear/$', views.clear_database, name='clear_database'),
     url(r'^$', views.BasicUploadView.as_view(), name='basic_upload'),
+    url(r'^sorting/$', views.Sorting.as_view(), name='sorting'),
 ]

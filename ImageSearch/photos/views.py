@@ -18,6 +18,53 @@ from django.views import View
 from .forms import PhotoForm
 from .models import Photo
 
+class Sorting(View):
+    def get(self, request):
+        photos_list = Photo.objects.all()
+        print ("get upload ajax")
+        return render(self.request, 'photos/basic_upload/sort_index.html', {'photos': photos_list})
+
+    def post(self, request):
+        form = PhotoForm(self.request.POST, self.request.FILES)
+        if form.is_valid():
+            photo = form.save()
+            result = []
+            url_search='/home/thao-nt/Desktop/MMDB/MMDB/ImageSearch/media/'+photo.file.name
+            img_search = cv2.imread(url_search,0)  # queryImage
+            surf = cv2.xfeatures2d.SURF_create()
+            kp1, des1 = surf.detectAndCompute(img_search, None)
+            train_path = "/home/thao-nt/Desktop/MMDB/MMDB/brute-force/des_temp"
+            training_names = os.listdir(train_path)
+            cnt_arr = []
+            url_arr = []
+            for training_name in training_names:
+                des2 = np.load('/home/thao-nt/Desktop/MMDB/MMDB/brute-force/des_temp/' + training_name)
+                FLANN_INDEX_KDTREE = 0
+                index_params = dict(algorithm=FLANN_INDEX_KDTREE, trees=5)
+                search_params = dict(checks=50)  # or pass empty dictionary
+
+                flann = cv2.FlannBasedMatcher(index_params, search_params)
+
+                matches = flann.knnMatch(des1, des2, k=2)
+
+                matchesMask = [[0, 0] for i in range(len(matches))]
+                cnt = 0
+                for i, (m, n) in enumerate(matches):
+                    if m.distance < 0.7 * n.distance:
+                        cnt = cnt + 1
+                        matchesMask[i] = [1, 0]
+                cnt_arr.append(cnt)
+                url_arr.append(training_name)
+                Z = [url for _, url in sorted(zip(cnt_arr, url_arr), reverse=True)]
+            print ((Z))
+            context = {
+                'result': result,
+                'photo_file_url':photo.file.url
+            }
+        else:
+            context ={'is_valid': False}
+
+        return JsonResponse(context)
 
 class BasicUploadView(View):
     def get(self, request):
