@@ -13,9 +13,9 @@ kp1, des1 = surf.detectAndCompute(img1,None)
 kp2, des2 = surf.detectAndCompute(img2,None)
 # np.savetxt("des1.txt", des1, delimiter=" ", fmt="%s")
 # np.savetxt("des2.txt", des2, delimiter=" ", fmt="%s")
-diffs=np.intersect1d(des1,des2)
-print (len(diffs))
-np.savetxt("diffs1.txt", diffs, delimiter=" ", fmt="%s")
+# diffs=np.intersect1d(des1,des2)
+# print (len(diffs))
+# np.savetxt("diffs1.txt", diffs, delimiter=" ", fmt="%s")
 
 
 # FLANN parameters
@@ -26,7 +26,6 @@ search_params = dict(checks=50)   # or pass empty dictionary
 flann = cv2.FlannBasedMatcher(index_params,search_params)
 
 matches = flann.knnMatch(des1,des2,k=2)
-# print (len(matches))
 # print (len(des1))
 # print (len(des2))
 # Need to draw only good matches, so create a mask
@@ -37,6 +36,7 @@ for i,(m,n) in enumerate(matches):
     if m.distance < 0.7*n.distance:
         cnt = cnt+1
         matchesMask[i]=[1,0]
+print (cnt)
 if (cnt/(max(len(des1),len(des2)))) >0.5:
     print ("match")
 else:

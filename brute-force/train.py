@@ -11,9 +11,9 @@ for x in range(0,999,1):
         path_img ="image.orig/" + str(x) +".jpg"
         print (path_img)
         path_kp = "keypoint/" + str(x) + ".txt"
-        path_des = "des/" + str(x) + ".txt"
+        path_des = "des_arr/" + str(x) + ".txt"
         img = cv2.imread(path_img, 0)  # trainImage
         # find the keypoints and descriptors with SURF
         kp, des = surf.detectAndCompute(img, None)
-        np.savetxt(path_kp, kp, delimiter=" ", fmt="%s")
-        np.savetxt(path_des, des, delimiter=" ", fmt="%s")
+        np.save(path_des,  des)
+        # np.savetxt(path_des, des, delimiter=" ", fmt="%s")
