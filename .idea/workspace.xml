@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d651b81-88b6-459d-8b56-a583f9cae0ee" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageSearch/db.sqlite3" afterPath="$PROJECT_DIR$/ImageSearch/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReadME.md" afterPath="$PROJECT_DIR$/ReadME.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -80,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadME.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ReadME.md">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+            <state relative-caret-position="435">
+              <caret line="15" column="92" lean-forward="false" selection-start-line="15" selection-start-column="92" selection-end-line="15" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -180,6 +178,7 @@
         <option value="$PROJECT_DIR$/bag-of-words/train.py" />
         <option value="$PROJECT_DIR$/ImageSearch/photos/views.py" />
         <option value="$PROJECT_DIR$/ReadME.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -636,7 +635,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ImageSearch/searchApp/form.py" />
     <entry file="file://$PROJECT_DIR$/ImageSearch/searchApp/forms.py" />
     <entry file="file://$PROJECT_DIR$/ImageSearch/ImageSearch/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -923,6 +921,14 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ReadME.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ImageSearch/photos/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
@@ -933,10 +939,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ReadME.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        <state relative-caret-position="435">
+          <caret line="15" column="92" lean-forward="false" selection-start-line="15" selection-start-column="92" selection-end-line="15" selection-end-column="92" />
           <folding />
         </state>
       </provider>
