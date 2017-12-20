@@ -14,7 +14,6 @@ from django.core.files.storage import FileSystemStorage
 from django.shortcuts import render, redirect
 from django.http import JsonResponse
 from django.views import View
-
 from .forms import PhotoForm
 from .models import Photo
 
@@ -30,11 +29,11 @@ class Sorting(View):
         if form.is_valid():
             photo = form.save()
             result = []
-            url_search='/home/thao-nt/Desktop/MMDB/MMDB/ImageSearch/media/'+photo.file.name
+            url_search='../ImageSearch/media/'+photo.file.name
             img_search = cv2.imread(url_search,0)  # queryImage
             surf = cv2.xfeatures2d.SURF_create()
             kp1, des1 = surf.detectAndCompute(img_search, None)
-            train_path = "/home/thao-nt/Desktop/MMDB/MMDB/ImageSearch/src/des_arr/"
+            train_path = "../ImageSearch/src/des_arr/"
             training_names = os.listdir(train_path)
             cnt_arr = []
             url_arr = []
@@ -83,28 +82,25 @@ class BasicUploadView(View):
             photo = form.save()
             result = []
             print ("post ajax search")
-            clf, classes_names, stdSlr, k, voc = joblib.load("/home/thao-nt/Desktop/MMDB/MMDB/ImageSearch/searchApp/train.txt")
-            fea_det = cv2.xfeatures2d.SURF_create()
-            des_ext = cv2.xfeatures2d.SURF_create()
-            print (k)
-            test_path = "/home/thao-nt/Desktop/MMDB/MMDB/ImageSearch/media/"
+            clf, classes_names, stdSlr, k, voc = joblib.load("../ImageSearch/src/train.txt")
+            SIFT = cv2.xfeatures2d.SIFT_create()
+            # des_ext = cv2.xfeatures2d.SURF_create()
+            test_path = "../ImageSearch/media/"
 
             des_list = []
-            print (photo.file.url)
+            # print (photo.file.url)
             image_path = os.path.join(test_path, photo.file.name)
             image_paths = [image_path]
             print (image_path)
             im = cv2.imread(image_path)
-            kpts = fea_det.detect(im)
-            kpts, des = des_ext.compute(im, kpts)
+            kpts = SIFT.detect(im)
+            kpts, des = SIFT.compute(im, kpts)
             des_list.append((image_path, des))
 
             # Stack all the descriptors vertically in a numpy array
             descriptors = des_list[0][1]
             for image_path, descriptor in des_list[0:]:
                 descriptors = np.vstack((descriptors, descriptor))
-
-                #
             test_features = np.zeros((len(image_paths), k), "float32")
             for i in range(len(image_paths)):
                 words, distance = vq(des_list[i][1], voc)
@@ -126,7 +122,7 @@ class BasicUploadView(View):
             for image_path, prediction in zip(image_paths, predictions):
                 # image = cv2.imread(image_path)
                 print (prediction)
-                results_path = "/home/thao-nt/Desktop/MMDB/MMDB/ImageSearch/searchApp/dataset/train/" + prediction
+                results_path = "../ImageSearch/src/dataset/train/" + prediction
                 results_name = os.listdir(results_path)
                 for result_name in results_name:
                     result_path = os.path.join(results_path, result_name)

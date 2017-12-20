@@ -15,5 +15,5 @@ for x in range(0,999,1):
         img = cv2.imread(path_img, 0)  # trainImage
         # find the keypoints and descriptors with SURF
         kp, des = surf.detectAndCompute(img, None)
-        np.save(path_des,  des)
+        np.save(path_des,des)
         # np.savetxt(path_des, des, delimiter=" ", fmt="%s")

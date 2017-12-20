@@ -27,15 +27,15 @@ for training_name in training_names:
     class_id+=1
 
 # Initiate SURF detector
-SURF = cv2.xfeatures2d.SIFT_create()
+SIFT = cv2.xfeatures2d.SIFT_create()
 
 # List where all the descriptors are stored
 des_list = []
 
 for image_path in image_paths:
     im = cv2.imread(image_path)
-    kpts = SURF.detect(im)
-    kpts, des = SURF.compute(im, kpts)
+    kpts = SIFT.detect(im)
+    kpts, des = SIFT.compute(im, kpts)
     des_list.append((image_path, des))   
 # print (des_list)
 # Stack all the descriptors vertically in a numpy array
