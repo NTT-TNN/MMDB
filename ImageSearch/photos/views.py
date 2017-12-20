@@ -25,6 +25,7 @@ class Sorting(View):
         return render(self.request, 'photos/basic_upload/sort_index.html', {'photos': photos_list})
 
     def post(self, request):
+        print ("Finding image")
         form = PhotoForm(self.request.POST, self.request.FILES)
         if form.is_valid():
             photo = form.save()
@@ -33,12 +34,13 @@ class Sorting(View):
             img_search = cv2.imread(url_search,0)  # queryImage
             surf = cv2.xfeatures2d.SURF_create()
             kp1, des1 = surf.detectAndCompute(img_search, None)
-            train_path = "/home/thao-nt/Desktop/MMDB/MMDB/brute-force/des_temp"
+            train_path = "/home/thao-nt/Desktop/MMDB/MMDB/ImageSearch/src/des_arr/"
             training_names = os.listdir(train_path)
             cnt_arr = []
             url_arr = []
             for training_name in training_names:
-                des2 = np.load('/home/thao-nt/Desktop/MMDB/MMDB/brute-force/des_temp/' + training_name)
+                print (training_name)
+                des2 = np.load(train_path + training_name)
                 FLANN_INDEX_KDTREE = 0
                 index_params = dict(algorithm=FLANN_INDEX_KDTREE, trees=5)
                 search_params = dict(checks=50)  # or pass empty dictionary
@@ -54,9 +56,11 @@ class Sorting(View):
                         cnt = cnt + 1
                         matchesMask[i] = [1, 0]
                 cnt_arr.append(cnt)
-                url_arr.append(training_name)
+                url_arr.append(training_name.split(".")[0])
+                # print (training_name.split(".")[0])
                 Z = [url for _, url in sorted(zip(cnt_arr, url_arr), reverse=True)]
-            print ((Z))
+            for url in Z[0:30]:
+                result.append("image.orig/"+url+".jpg")
             context = {
                 'result': result,
                 'photo_file_url':photo.file.url
