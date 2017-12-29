@@ -2,1011 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d651b81-88b6-459d-8b56-a583f9cae0ee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageSearch/src/solution_2/img_paths.npy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageSearch/src/solution_2/img_vs_cluster.npy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageSearch/src/solution_2/voc.npy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageSearch/src/solution_2/query.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageSearch/src/solution_2/train.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/400.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/401.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/402.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/403.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/404.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/405.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/406.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/407.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/408.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/409.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/410.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/411.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/412.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/413.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/414.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/415.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/416.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/417.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/418.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/419.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/420.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/421.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/422.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/423.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/424.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/425.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/426.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/427.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/428.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/429.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/430.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/431.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/432.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/433.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/434.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/435.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/436.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/437.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/438.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/439.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/440.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/441.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/442.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/443.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/444.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/445.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/446.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/447.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/448.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/449.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/450.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/451.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/452.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/453.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/454.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/455.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/456.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/457.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/458.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/459.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/460.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/461.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/462.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/463.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/464.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/465.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/466.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/467.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/468.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/469.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/470.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/471.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/472.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/473.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/474.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/475.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/476.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/477.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/478.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/479.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/480.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/481.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/482.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/483.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/484.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/485.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/486.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/487.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/488.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/489.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/490.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/491.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/492.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/493.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/494.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/495.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/496.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/497.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/498.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/Dinosaurs/499.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/201.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/202.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/203.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/204.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/205.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/206.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/207.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/208.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/209.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/210.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/211.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/212.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/213.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/214.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/215.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/216.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/217.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/218.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/219.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/220.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/221.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/222.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/223.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/224.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/225.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/226.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/227.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/228.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/229.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/230.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/231.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/232.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/234.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/235.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/236.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/237.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/238.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/239.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/240.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/241.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/242.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/243.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/244.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/245.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/246.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/247.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/248.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/249.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/250.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/251.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/252.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/253.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/254.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/255.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/256.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/257.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/258.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/259.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/260.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/261.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/262.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/263.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/264.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/265.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/266.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/267.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/268.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/269.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/270.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/271.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/272.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/273.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/274.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/275.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/276.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/277.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/278.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/279.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/280.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/281.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/282.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/283.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/284.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/285.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/286.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/287.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/288.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/289.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/290.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/291.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/292.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/293.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/294.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/295.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/296.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/297.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/298.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/architure/299.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/803.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/804.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/805.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/806.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/807.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/808.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/809.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/810.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/811.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/812.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/813.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/814.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/815.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/816.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/817.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/818.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/819.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/820.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/821.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/822.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/823.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/824.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/825.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/826.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/827.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/828.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/829.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/830.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/831.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/832.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/833.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/834.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/835.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/836.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/837.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/838.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/839.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/840.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/841.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/842.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/843.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/844.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/845.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/846.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/847.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/848.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/849.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/850.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/851.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/852.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/853.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/854.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/855.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/856.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/857.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/858.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/859.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/860.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/861.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/862.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/863.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/864.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/865.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/866.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/867.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/868.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/869.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/870.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/871.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/872.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/873.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/874.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/875.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/876.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/877.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/878.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/879.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/880.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/881.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/882.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/883.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/884.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/885.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/886.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/887.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/888.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/889.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/890.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/891.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/892.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/893.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/894.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/895.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/896.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/897.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/898.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/background/899.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/101.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/102.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/103.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/105.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/106.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/107.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/108.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/109.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/110.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/111.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/112.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/113.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/114.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/115.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/116.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/117.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/118.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/119.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/120.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/121.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/122.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/123.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/124.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/125.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/126.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/127.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/129.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/130.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/131.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/132.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/133.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/134.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/135.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/136.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/137.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/138.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/139.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/140.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/141.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/142.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/143.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/144.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/145.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/146.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/147.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/148.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/149.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/150.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/151.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/152.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/153.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/154.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/155.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/156.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/157.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/158.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/159.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/160.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/161.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/162.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/163.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/164.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/165.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/166.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/167.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/168.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/169.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/170.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/171.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/172.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/173.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/174.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/175.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/176.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/177.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/178.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/179.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/180.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/181.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/182.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/183.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/184.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/185.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/186.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/187.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/188.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/189.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/190.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/191.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/192.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/193.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/194.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/195.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/196.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/197.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/198.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/beach/199.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bicycle/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bicycle/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bicycle/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bicycle/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bicycle/13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bicycle/14.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bicycle/15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bicycle/16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bicycle/17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bicycle/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bicycle/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bicycle/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bicycle/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bicycle/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bicycle/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bicycle/8.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bicycle/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/303.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/304.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/305.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/306.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/307.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/308.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/309.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/310.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/311.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/312.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/313.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/314.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/315.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/316.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/317.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/318.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/319.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/320.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/321.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/322.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/323.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/324.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/325.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/326.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/327.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/328.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/329.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/330.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/331.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/332.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/333.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/334.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/335.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/336.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/337.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/338.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/339.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/340.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/341.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/342.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/343.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/344.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/345.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/346.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/347.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/348.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/349.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/350.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/351.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/352.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/353.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/354.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/355.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/356.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/357.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/358.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/359.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/360.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/361.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/362.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/363.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/364.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/365.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/366.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/367.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/368.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/369.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/370.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/371.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/372.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/373.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/374.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/375.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/376.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/377.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/378.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/379.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/380.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/381.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/382.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/383.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/384.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/385.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/386.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/387.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/388.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/389.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/390.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/391.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/392.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/393.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/394.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/395.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/396.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/397.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/398.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/bus/399.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/504.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/505.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/506.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/507.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/508.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/509.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/510.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/511.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/513.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/514.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/515.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/516.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/517.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/518.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/519.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/520.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/521.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/522.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/523.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/524.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/525.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/526.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/527.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/528.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/529.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/530.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/531.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/532.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/533.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/534.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/535.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/536.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/537.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/538.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/539.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/540.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/541.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/542.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/543.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/544.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/545.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/546.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/547.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/548.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/549.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/550.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/551.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/552.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/553.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/554.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/555.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/556.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/557.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/558.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/559.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/560.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/561.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/562.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/563.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/564.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/565.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/566.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/567.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/568.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/569.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/570.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/571.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/572.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/573.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/574.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/575.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/576.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/577.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/578.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/579.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/580.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/581.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/582.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/583.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/584.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/585.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/586.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/587.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/588.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/589.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/590.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/591.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/592.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/593.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/594.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/595.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/596.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/597.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/598.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/elephant/599.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/604.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/605.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/606.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/607.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/608.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/609.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/610.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/611.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/612.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/613.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/614.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/615.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/616.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/617.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/618.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/619.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/620.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/621.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/622.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/623.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/624.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/625.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/626.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/627.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/628.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/629.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/630.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/631.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/632.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/633.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/634.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/635.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/636.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/637.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/638.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/639.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/640.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/641.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/642.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/643.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/644.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/645.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/646.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/647.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/648.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/649.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/650.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/651.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/652.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/653.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/654.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/655.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/656.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/657.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/658.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/659.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/660.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/661.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/662.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/663.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/664.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/665.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/666.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/667.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/668.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/669.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/670.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/671.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/672.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/673.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/674.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/675.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/676.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/677.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/678.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/679.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/680.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/681.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/682.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/683.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/684.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/685.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/686.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/687.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/688.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/689.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/690.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/691.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/692.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/693.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/694.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/695.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/696.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/697.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/698.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/flower/699.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/900.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/901.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/902.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/903.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/904.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/905.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/906.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/907.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/908.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/909.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/910.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/911.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/912.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/913.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/914.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/915.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/916.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/917.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/918.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/919.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/920.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/921.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/922.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/923.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/924.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/925.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/926.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/927.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/928.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/929.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/930.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/931.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/932.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/933.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/934.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/935.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/936.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/937.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/938.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/939.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/940.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/941.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/942.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/943.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/944.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/945.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/946.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/947.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/948.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/949.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/950.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/951.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/952.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/953.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/954.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/955.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/956.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/957.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/958.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/959.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/960.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/961.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/962.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/963.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/964.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/965.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/966.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/967.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/968.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/969.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/970.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/971.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/972.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/973.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/974.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/975.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/976.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/977.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/978.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/979.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/980.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/981.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/982.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/983.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/984.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/985.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/986.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/987.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/988.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/989.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/990.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/991.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/992.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/993.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/994.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/995.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/996.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/997.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/998.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/food/999.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/703.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/704.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/705.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/706.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/707.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/708.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/709.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/710.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/711.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/712.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/713.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/714.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/715.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/716.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/717.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/718.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/719.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/720.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/721.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/722.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/723.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/724.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/725.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/726.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/727.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/728.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/729.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/730.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/731.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/732.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/733.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/734.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/735.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/736.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/737.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/738.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/739.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/740.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/741.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/742.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/743.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/744.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/745.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/746.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/747.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/748.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/749.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/750.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/751.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/752.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/753.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/754.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/755.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/756.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/757.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/758.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/759.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/760.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/761.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/762.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/763.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/764.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/765.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/766.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/767.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/768.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/769.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/770.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/771.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/772.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/773.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/774.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/775.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/776.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/777.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/778.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/779.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/780.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/781.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/782.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/783.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/784.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/785.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/786.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/787.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/788.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/789.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/790.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/791.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/792.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/793.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/794.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/795.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/796.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/797.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/798.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/horse/799.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/34.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/35.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/36.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/37.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/38.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/39.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/41.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/42.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/43.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/44.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/45.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/46.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/47.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/48.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/49.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/50.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/51.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/52.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/53.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/54.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/55.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/56.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/57.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/58.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/59.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/60.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/61.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/62.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/63.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/65.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/66.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/67.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/68.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/69.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/70.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/71.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/72.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/73.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/75.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/76.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/77.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/78.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/79.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/80.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/81.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/82.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/83.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/84.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/85.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/86.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/87.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/88.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/89.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/90.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/91.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/92.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/93.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/94.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/95.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/96.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/97.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/98.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bag-of-words/dataset/train/person/99.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageSearch/db.sqlite3" afterPath="$PROJECT_DIR$/ImageSearch/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageSearch/photos/views.py" afterPath="$PROJECT_DIR$/ImageSearch/photos/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bag-of-words/search.py" afterPath="$PROJECT_DIR$/bag-of-words/search.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bag-of-words/train.py" afterPath="$PROJECT_DIR$/bag-of-words/train.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageSearch/searchApp/static/js/basic-upload.js" afterPath="$PROJECT_DIR$/ImageSearch/searchApp/static/js/basic-upload.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -1038,16 +37,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ImageSearch/photos/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="84" column="52" lean-forward="true" selection-start-line="84" selection-start-column="52" selection-end-line="84" selection-end-column="52" />
+            <state relative-caret-position="-3306">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
-                <element signature="e#1616#1673#0" expanded="false" />
-                <marker date="1514558009391" expanded="true" signature="1022:1154" ph="..." />
+                <element signature="e#1627#1684#0" expanded="false" />
+                <marker date="1514559273440" expanded="true" signature="1033:1165" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ImageSearch/photos/templates/photos/basic_upload/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="29">
+              <caret line="9" column="65" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basic-upload.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ImageSearch/searchApp/static/js/basic-upload.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1056,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/ImageSearch/photos/templates/photos/basic_upload/sort_index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="937">
-              <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+              <caret line="33" column="6" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -1066,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/ImageSearch/searchApp/static/js/sorting.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-29">
-              <caret line="2" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <caret line="2" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1132,7 +151,6 @@
         <option value="$PROJECT_DIR$/ImageSearch/searchApp/models.py" />
         <option value="$PROJECT_DIR$/ImageSearch/photos/static/photos/js/basic-upload.js" />
         <option value="$PROJECT_DIR$/ImageSearch/searchApp/static/photos/js/basic-upload.js" />
-        <option value="$PROJECT_DIR$/ImageSearch/searchApp/static/js/basic-upload.js" />
         <option value="$PROJECT_DIR$/ImageSearch/photos/templates/index.html" />
         <option value="$PROJECT_DIR$/ImageSearch/templates/searchApp/index.html" />
         <option value="$PROJECT_DIR$/ImageSearch/searchApp/static/css/style.css" />
@@ -1153,6 +171,7 @@
         <option value="$PROJECT_DIR$/bag-of-words/train.py" />
         <option value="$PROJECT_DIR$/bag-of-words/search.py" />
         <option value="$PROJECT_DIR$/ImageSearch/photos/views.py" />
+        <option value="$PROJECT_DIR$/ImageSearch/searchApp/static/js/basic-upload.js" />
       </list>
     </option>
   </component>
@@ -1916,20 +935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ImageSearch/photos/templates/photos/basic_upload/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="9" column="65" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageSearch/searchApp/static/js/basic-upload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ImageSearch/photos/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -2006,7 +1011,7 @@
     <entry file="file://$PROJECT_DIR$/ImageSearch/photos/templates/photos/basic_upload/sort_index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="937">
-          <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <caret line="33" column="6" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -2014,20 +1019,36 @@
     <entry file="file://$PROJECT_DIR$/ImageSearch/searchApp/static/js/sorting.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-29">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <caret line="2" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ImageSearch/photos/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="84" column="52" lean-forward="true" selection-start-line="84" selection-start-column="52" selection-end-line="84" selection-end-column="52" />
+        <state relative-caret-position="-3306">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
-            <element signature="e#1616#1673#0" expanded="false" />
-            <marker date="1514558009391" expanded="true" signature="1022:1154" ph="..." />
+            <element signature="e#1627#1684#0" expanded="false" />
+            <marker date="1514559273440" expanded="true" signature="1033:1165" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageSearch/photos/templates/photos/basic_upload/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="9" column="65" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageSearch/searchApp/static/js/basic-upload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>

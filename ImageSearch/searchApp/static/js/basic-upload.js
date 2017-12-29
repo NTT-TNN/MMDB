@@ -13,9 +13,10 @@ $(function () {
          for (var i=0;i<data.result.result.length;++i){
             var figure=document.createElement("figure");
             var image=document.createElement("IMG");
-            image.src="/static/images/"+data.result.result[i];
+            image.src="/static/"+data.result.result[i];
+            console.log(image.src)
             var figcaption=document.createElement("figcaption");
-            figcaption.append("/static/images/"+data.result.result[i]);
+            figcaption.append("/static/"+data.result.result[i]);
             figure.appendChild(image);
             figure.appendChild(figcaption);
             $("#results").append(figure);
