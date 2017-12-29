@@ -105,8 +105,12 @@ class Sorting(View):
                 return item[1]
 
             result = sorted(result, key=getKey)
+            count=0;
             for i, j in result:
+                count=count+1
                 results.append(i[2:])
+                if count==100:
+                    break
             context = {
                 'result': results,
                 'photo_file_url': photo.file.url
