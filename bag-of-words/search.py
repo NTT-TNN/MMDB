@@ -60,11 +60,6 @@ for image_path, prediction in zip(image_paths, predictions):
     for result_name in results_name:
         result_path = os.path.join(results_path, result_name)
         print (result_path)
-    # cv2.namedWindow("Image", cv2.WINDOW_NORMAL)
-    # pt = (0, 3 * image.shape[0] // 4)
-    # cv2.putText(image, prediction, pt ,cv2.FONT_HERSHEY_SCRIPT_COMPLEX, 2, [0, 255, 0], 2)
-    # cv2.imshow("Image", image)
-    # cv2.waitKey(3000)
 
 
 

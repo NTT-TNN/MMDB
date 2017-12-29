@@ -37,10 +37,9 @@ for image_path in image_paths:
     kpts = SIFT.detect(im)
     kpts, des = SIFT.compute(im, kpts)
     des_list.append((image_path, des))   
-# print (des_list)
 # Stack all the descriptors vertically in a numpy array
 descriptors = des_list[0][1]
-for image_path, descriptor in des_list[1:]:
+for image_path, descriptor in des_list[1:]: # Chuyển các phần tử vào mootj mảng theo chiều ngang
     descriptors = np.vstack((descriptors, descriptor))
 
 # Perform k-means clustering
@@ -56,14 +55,15 @@ voc, variance = kmeans(descriptors, k, 1) # Tách thành 100 cụm dựa trên p
 im_features = np.zeros((len(image_paths), k), "float32") # Tạo một array độ dài bằng độ dài image_paths và giá trị bằng 0
 for i in range(len(image_paths)):
     words, distance = vq(des_list[i][1],voc)
-    # print (words)
-    for w in words:
+    # print (des_list[i][1])
+    for w in words: # với mỗi ảnh xác định tần xuất xuất hiện của các key point đã chuẩn hóa
         im_features[i][w] += 1
 # print (im_features)
 
-# Perform Tf-Idf vectorization
+# Perform Tf-Idf vectorization cho từng ảnh
 nbr_occurences = np.sum( (im_features > 0) * 1, axis = 0)
 idf = np.array(np.log((1.0*len(image_paths)+1) / (1.0*nbr_occurences + 1)), 'float32')
+# print (idf)
 # Scaling the words
 stdSlr = StandardScaler().fit(im_features)
 # print (im_features)
@@ -74,8 +74,8 @@ im_features = stdSlr.transform(im_features)
 
 # Train the Linear SVM
 clf = LinearSVC()
-print (im_features)
-print (image_classes)
+# print (im_features)
+# print (image_classes)
 clf.fit(im_features, np.array(image_classes))
 # Save to file
 joblib.dump((clf, training_names, stdSlr, k, voc), "train.txt", compress=0)
