@@ -1,6 +1,7 @@
 $(function () {
   $(".js-upload-photos").click(function () {
-    $("#fileupload").click();
+      $("#results").empty();
+      $("#fileupload").click();
   });
 
   $("#fileupload").fileupload({
@@ -14,7 +15,6 @@ $(function () {
             var figure=document.createElement("figure");
             var image=document.createElement("IMG");
             image.src="/static/"+data.result.result[i];
-            console.log(image.src)
             var figcaption=document.createElement("figcaption");
             figcaption.append("/static/"+data.result.result[i]);
             figure.appendChild(image);

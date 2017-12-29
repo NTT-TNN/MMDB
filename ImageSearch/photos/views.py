@@ -32,10 +32,6 @@ class Sorting(View):
     train_path=""
     def get(self, request):
         self.train_path = "../ImageSearch/src/solution_2/"
-        # training_names = os.listdir(train_path)
-        # for training_name in training_names:
-        #     self.des2s.append(np.load(train_path + training_name))
-        #     self.url_arr.append(training_name.split(".")[0])
         photos_list = Photo.objects.all()
         print ("get upload ajax")
         return render(self.request, 'photos/basic_upload/sort_index.html', {'photos': photos_list})
@@ -102,6 +98,7 @@ class Sorting(View):
 
             result = []
             for i, image_vecto in enumerate(img_vs_cluster):
+                print ((i / len(img_vs_cluster)), "%")
                 dis = distance.euclidean(temp, image_vecto)
                 result.append((img_paths[i], dis))
             def getKey(item):
@@ -109,7 +106,6 @@ class Sorting(View):
 
             result = sorted(result, key=getKey)
             for i, j in result:
-                print (i[2:])
                 results.append(i[2:])
             context = {
                 'result': results,
@@ -123,79 +119,29 @@ class BasicUploadView(View):
         print ("get upload ajax")
         return render(self.request, 'photos/basic_upload/index.html', {'photos': photos_list})
 
-    def post(self, request):
+    def post(self, request):            # matches = bf.knnMatch(des,temp_des,k=2)
+
         form = PhotoForm(self.request.POST, self.request.FILES)
 
         if form.is_valid():
             photo = form.save()
             results = []
             print ("post ajax search")
-        #     clf, classes_names, stdSlr, k, voc = joblib.load("../ImageSearch/src/train.txt")
-        #     SIFT = cv2.xfeatures2d.SIFT_create()
-        #     # des_ext = cv2.xfeatures2d.SURF_create()
             test_path = "../ImageSearch/media/"
-        #
-        #     des_list = []
-        #     # print (photo.file.url)
             img_querry_path = os.path.join(test_path, photo.file.name)
-        #     image_paths = [image_path]
-        #     print (image_path)
-        #     im = cv2.imread(image_path)
-        #     kpts = SIFT.detect(im)
-        #     kpts, des = SIFT.compute(im, kpts)
-        #     des_list.append((image_path, des))
-        #
-        #     # Stack all the descriptors vertically in a numpy array
-        #     descriptors = des_list[0][1]
-        #     for image_path, descriptor in des_list[0:]:
-        #         descriptors = np.vstack((descriptors, descriptor))
-        #     test_features = np.zeros((len(image_paths), k), "float32")
-        #     for i in range(len(image_paths)):
-        #         words, distance = vq(des_list[i][1], voc)
-        #         for w in words:
-        #             test_features[i][w] += 1
-        #
-        #     # Perform Tf-Idf vectorization
-        #     nbr_occurences = np.sum((test_features > 0) * 1, axis=0)
-        #     idf = np.array(np.log((1.0 * len(image_paths) + 1) / (1.0 * nbr_occurences + 1)), 'float32')
-        #
-        #     # Scale the features
-        #     test_features = stdSlr.transform(test_features)
-        #
-        #     # Perform the predictions
-        #     predictions = [classes_names[i] for i in clf.predict(test_features)]
-        #     # predictions = [key]
-        #     # Visualize the results, if "visualize" flag set to true by the user
-        #
-        #     for image_path, prediction in zip(image_paths, predictions):
-        #         # image = cv2.imread(image_path)
-        #         print (prediction)
-        #         results_path = "../ImageSearch/src/dataset/train/" + prediction
-        #         results_name = os.listdir(results_path)
-        #         for result_name in results_name:
-        #             result_path = os.path.join(results_path, result_name)
-        #             result_name = "/" + prediction + "/" + result_name;
-        #             result.append(result_name)
-        #     context = {
-        #         'result': result,
-        #         'photo_file_url':photo.file.url
-        #     }
-        # else:
-        #     context ={'is_valid': False}
         feature_paths = "../ImageSearch/src/solution_1/extract-feature"
-        # img_querry_path = "../data-test/0.jpg"
-
         surf = cv2.xfeatures2d.SURF_create()
         img_querry = cv2.imread(img_querry_path, 0)
         kp, des = surf.detectAndCompute(img_querry, None)
         bf = cv2.BFMatcher()
 
         result = []
-
+        p=0;
         for feature_path in os.listdir(feature_paths):
-            temp_des = []  # luu cac des duoc lay tu file
-            print("Xu Ly Anh: ", feature_path)
-
+            p=p+1
+            print ((p/len(os.listdir(feature_paths))),"%")
+            # print ("%")
+            # print("Xu Ly Anh: ", feature_path)
             with open('../ImageSearch/src/solution_1/extract-feature/' + feature_path, 'rt', encoding="utf8") as csvfile:
                 matrixreader = csv.reader(csvfile, delimiter=' ')
                 image_compare = "".join(next(matrixreader))  # dia chi tuong ung voi file dang xet
@@ -206,8 +152,6 @@ class BasicUploadView(View):
                 for row in matrixreader:
                     a = [np.float32(x) for x in row]
                     temp_des = np.vstack((temp_des, a))
-
-            # matches = bf.knnMatch(des,temp_des,k=2)
             matches = bf.match(des, temp_des)
             sum = 0
             for m in matches:
