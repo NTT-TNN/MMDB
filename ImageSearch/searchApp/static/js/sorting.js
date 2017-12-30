@@ -18,7 +18,7 @@ $(function () {
             var image=document.createElement("IMG");
             image.src="/static/"+data.result.result[i];
             var figcaption=document.createElement("figcaption");
-            figcaption.append("/static/images/"+data.result.result[i]);
+            figcaption.append("/static/"+data.result.result[i]);
             figure.appendChild(image);
             figure.appendChild(figcaption);
             $("#results").append(figure);

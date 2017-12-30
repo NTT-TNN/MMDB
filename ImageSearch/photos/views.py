@@ -107,6 +107,7 @@ class Sorting(View):
             result = sorted(result, key=getKey)
             count=0;
             for i, j in result:
+                print (i)
                 count=count+1
                 results.append(i[2:])
                 if count==100:
@@ -143,7 +144,7 @@ class BasicUploadView(View):
         p=0;
         for feature_path in os.listdir(feature_paths):
             p=p+1
-            print ((p/len(os.listdir(feature_paths))),"%")
+            print ((p/len(os.listdir(feature_paths)))*100,"%")
             # print ("%")
             # print("Xu Ly Anh: ", feature_path)
             with open('../ImageSearch/src/solution_1/extract-feature/' + feature_path, 'rt', encoding="utf8") as csvfile:
@@ -167,8 +168,13 @@ class BasicUploadView(View):
             return item[1]
 
         result = sorted(result, key=getKey)
+        count =0
         for i, j in result:
+            count=count+1
+            print (i)
             results.append(i[2:])
+            if count==100:
+                break
         context = {
             'result': results,
             'photo_file_url': photo.file.url

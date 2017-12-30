@@ -11,9 +11,9 @@ git clone https://github.com/NTT-TNN/MMDB
 cd MMDB/ImageSearch
 workon cv
 python manager runserver
-open brower at : http://127.0.0.1:8000 to search by text (example :food,bus,person,horse,....)
-open brower at : http://127.0.0.1:8000/photos to search by image (bag of word)
-open brower at : http://127.0.0.1:8000/photos/sorting to search by iamge (sorting limit 100)
+
+open browser at : http://127.0.0.1:8000/photos 
+open browser at : http://127.0.0.1:8000/photos/solution2
 
 
 
