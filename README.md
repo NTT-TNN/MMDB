@@ -10,6 +10,7 @@ Install OpenCv: [https://medium.com/@debugvn/installing-opencv-3-3-0-on-ubuntu-1
 git clone https://github.com/NTT-TNN/MMDB
 cd MMDB/ImageSearch
 workon cv
+pip install -r requirements.txt
 python manager runserver
 
 open browser at : http://127.0.0.1:8000/photos 
